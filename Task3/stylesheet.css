@@ -1,0 +1,105 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+p,h5,h3{
+color: white;
+}
+
+.cont1{
+background-color: #28282B;
+height: 350px;
+padding: 20px;
+}
+
+.cont2,.cont3{
+display: flex;
+}
+
+.box{
+padding: 20px;
+font-size: small;
+}
+
+.cont5{
+display: flex;
+text-align: center;
+}
+
+.cont4{
+padding: 20px;
+text-align: center;
+background-color: black;
+}
+
+h1,h6{
+color: goldenrod;
+}
+
+h6{
+font-size: medium;
+}
+
+h3,h6{
+text-align: center;
+padding: 10px;
+}
+
+h5{
+    font-size: large;
+}
+.box1{
+padding: 30px;
+}
+
+button{
+background-color: goldenrod;
+padding: 10px;
+margin-top: 20px;
+border:none;
+}
+
+.cont6{
+height: 180px;
+padding: 70px;
+background-image: url('https://www.westend61.de/images/0001412001pw/male-and-female-entrepreneurs-working-late-in-dark-office-at-night-MASF19371.jpg');
+background-size: cover;
+text-align: center;
+}
+
+#search{
+margin-top: 30px;
+width: 500px;
+height: 35px;
+}
+
+i{
+color:goldenrod;
+size: 30px;
+padding: 5px;
+}
+
+.cont7{
+display:flex;
+background-color: #28282B;
+margin-left: 0px;
+height: 200px;
+}
+
+.box3{
+padding: 20px;
+margin-left: 100px;
+line-height: 30px;
+}
+
+.box4{
+margin-left: 20px;
+font-size:large;
+padding-top: 40px;
+font-weight: bolder;
+}
+
+.total{
+border: solid 50px goldenrod;
+}

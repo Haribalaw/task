@@ -1,0 +1,65 @@
+*{font-family: Arial;
+padding: 0;
+margin: 0;
+}
+
+hr{width:94%;margin-left: 30px;
+}
+
+.cont1{height: 500px;
+width: 100;
+background-image:url("https://wallpaper.dog/large/14490.jpg");
+background-size:cover;
+color:white;
+}
+
+.nav1 li{display:inline-block;
+padding:20px 0 10px 40px;
+}
+
+.l1{font-weight: bolder;
+}
+
+.para1{font-size: 50px;
+margin: 100px 0px 0px 40px;
+}
+
+.para2{font-size: 22px;
+margin-left:40px;
+}
+
+.nav2 li {display: inline-block;
+margin-top:10px;
+padding:20px 0 10px 20px;margin-left: 15px;
+}
+
+form{padding-left: 40px;
+    margin-top: 20px;
+}
+
+.b1{background-color: orangered;
+    color:white;
+    border:none;
+    width:80px;
+    height:20px;
+}
+
+.cont2{width: 100%;
+height:180px;
+display:flex;
+}
+
+.box{padding: 40px;
+height: 180px;
+width:25%;border:5px solid white;
+text-align: center;
+background-color: beige;
+}
+
+
+img{
+height: 70%;
+width: 70%;
+}
+
+.l2{float:right;margin-right: 50px;}
