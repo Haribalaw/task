@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.col-1{width:8.33%}
+.col-2{width: 16.66%;}
+.col-8{width:66.66%;float:left;}
+
+.nav ul{
+    list-style-type: none;  
+}
+
+.nav li{
+    padding: 20px;
+    margin-top: 0px;
+    list-style-type: none;
+}
+
+.nav li:hover{background-color:darkblue;}
+
+.nav{
+    display: block;
+    background-color: midnightblue ;
+    color: white;
+    height: 670px;
+    padding: 40px 0;
+    float: left;
+}
+
+h3{
+    margin-left: 20px;
+}
+
+h4{border-bottom: 2px solid rgb(50, 122, 205);
+}
+
+table{
+    height: 50px;
+    width: 200px;
+    margin-top: 30px;
+}
+
+
+.nav2 ul{
+    list-style-type: none;  
+}
+
+.nav2 li{
+    padding: 20px;
+    margin-top: 0px;
+    list-style-type: none;
+    border-bottom: 1px solid grey;
+}
+
+.nav2 li:hover{background-color:rgb(105, 105, 107);}
+
+.nav2{
+    display: block;
+    color: rgb(236, 241, 243);
+    height: 670px;
+    padding: 40px 0;
+    float: right;
+    background-color: #171717;
+}
+
+.top li{
+    display: inline-block;
+}
+.top li:hover{background-color:rgb(195, 195, 201);}
+
+#b1{
+    background-color:royalblue;
+    padding: 6px 10px;
+    margin:20px 0 0 1px;
+    color: white;
+}
+
+.gird{
+    float: left;
+    margin-left: 0px;
+    padding: 50px 20px;
+    font-size: small;
+    
+}
+
+.top{
+    padding: 30px 10px;
+}
+
+.top ul li{
+    margin-right: 40px;
+    padding-left: 20px;
+}
+
+.topcon{
+    padding: 10px 20px;
+}
+.topcon p{
+    font-size: small;
+}
+
+#b2{
+    padding: 6px 10px;
+    float:right;
+    border: solid blue 1px;
+    margin:20px 30px 0 1px;
+    color: royalblue;
+}
+#b2:hover{background-color: cornflowerblue;}
+
+#b4{
+    padding: 8px 40px;
+    background-color: royalblue;
+    margin-top: 20px;
+}
+
+#b3{
+    padding: 8px 40px;
+    color:royalblue;
+    background-color:gray;
+    margin-top: 20px;
+}
+
+#btop{
+    padding: 10px 20px;
+    float: right;
+    background-color: royalblue;
+    
+}
+
+.searchbar{
+    width: 200px;
+    border-radius: 5px;
+    height: 25px;
+    margin-left: 153px;
+}
+
+@media only screen and (max-width:480px){
+    [class*="col-"]{
+        width: 100%;
+    }
+}
+@media only screen and (min-width:480px) and (max-width:768px){
+    [class*="col-"]{
+        width: 100%;
+    }
+}
